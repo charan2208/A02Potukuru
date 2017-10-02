@@ -1,0 +1,42 @@
+ul {
+    list-style-type: none;
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+	padding: 16px 20px;
+	color: white;
+}
+body{
+	margin: 0px;
+	background-color: #FFDAB9;
+}
+div{
+    text-align: center;    
+}
+.box{
+    height: 50px;
+    width:350px;
+}
+#query
+{
+    height:100px;
+    width:350px;
+    font-size:14pt;
+}
+.pics{
+    float: left;
+    width: 23%;
+    padding: 5%;
+}
+#button{
+    height: 40px;
+    width:350px;
+}

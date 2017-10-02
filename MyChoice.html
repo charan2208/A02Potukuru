@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            MyChoice
+        </title>
+        <link rel="stylesheet" type="text/css" href="Mychoice.css">        
+    </head>
+    <body>
+            <ul>
+                    <li><a href="Potukuru_DurgaCharan.html">Home</a></li>
+                    <li><a href="MyChoice.html">Wage Calculator</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+            </ul>
+        <H1>Coverting hourly wage into equivalent annual salary:</H1>
+        <div>
+            <form>
+                Hourly wage:<br><input type="text" name="wage" id="box1" class=box><br>
+                No of Hours per week:<br><input type="text" name="hours" id="box2" class=box><br>
+                No of weeks per year:<br><input type="text" name="weeks" id="query"><br>
+                <input type="button" value="Submit" id=button onclick="calculate()"><br> 
+                result:<br>
+                <textarea id="output"></textarea>
+
+            </form>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="calculate.js"></script>
+    </body>
+</html>
